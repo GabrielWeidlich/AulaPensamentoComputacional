@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <h1>Aprendendo a usar o FORM</h1>
+    <form>
+        <label for="name">Escreva o seu nome</label>
+        <input type="text" required><br><br>
+
+        <label for="nota1">Qual a sua nota no ciclo 01?</label>
+        <input type="number" min="0" max="100"><br><br>
+
+        <label for="nota2">Qual a sua nota no ciclo 02?</label>
+        <input type="number" min="0" max="100"><br><br>
+
+        <label for="nota3">Qual a sua nota no ciclo 03?</label>
+        <input type="number" min="0" max="100"><br><br>
+
+
+        <button type="submit" class="button1">Calcular</button><br>
+    </form>
+
+    <div id="resultado">
+        <h2>Resultado é: </h2>
+        <p id="mensagem"></p>
+    </div>
+
+<script src="index.js"></script>
+</body>
+</html>
